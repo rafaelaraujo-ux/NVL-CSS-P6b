@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div > p{
+	border: 2px solid #fabada;
+}
+
+div > p:first-child{
+	color: yellowgreen;
+	!important;
+}
+
+p + p{
+	color:red;
+}
